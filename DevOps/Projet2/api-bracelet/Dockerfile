@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Your Name <tzrocky@yahoo.fr>
+MAINTAINER Rocky TSANE <tzrocky@yahoo.fr>
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN mkdir -p /api-bracelet
