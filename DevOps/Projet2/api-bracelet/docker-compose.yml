@@ -1,2 +1,5 @@
 services:
   - docker
+install:
+  - docker build -t api-bracelet .
+  - docker run -d -p 127.0.0.1:80:4000 --name api-bracelet api-bracelet
